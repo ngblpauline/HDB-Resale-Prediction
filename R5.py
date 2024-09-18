@@ -42,7 +42,7 @@ st.markdown(
 estimator_xgb = joblib.load('trained_model.pkl')
 
 # Load address data with latitudes and longitudes
-addr_data = pd.read_csv('Extracted_ADDRPT_with_latlong.csv', low_memory=False)
+addr_data = pd.read_csv('Extracted_postal_with_latlong.csv', low_memory=False)
 
 # Global amenity column mapping
 AMENITY_COLUMN_MAPPING = {
