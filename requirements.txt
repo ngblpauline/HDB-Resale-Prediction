@@ -4,3 +4,4 @@ joblib
 geopy
 folium
 streamlit-folium
+scikit-learn
